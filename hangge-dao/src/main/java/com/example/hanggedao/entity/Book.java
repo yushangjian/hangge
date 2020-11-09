@@ -20,5 +20,6 @@ public class Book {
     private String name;
     private String author;
     private Float price;
+    private String likes;
 
 }
