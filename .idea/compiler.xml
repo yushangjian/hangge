@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hangge-base" />
+        <module name="hangge-dao" />
+        <module name="hangge-service" />
+        <module name="hangge-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hangge" target="1.8" />
+      <module name="hangge-base" target="1.8" />
+      <module name="hangge-dao" target="1.8" />
+      <module name="hangge-service" target="1.8" />
+      <module name="hangge-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
